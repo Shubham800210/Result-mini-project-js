@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sytle.css">
+        <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-sub">
+            <div class="sub-1">
+                <label>Computer:</label>
+                <input class="mg-top" id="sub-1" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="sub-2">
+                <label>Maths:</label>
+                <input class="mg-top"id="sub-2" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="sub-3">
+                <label>English:</label>
+                <input class="mg-top" id="sub-3" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="sub-4">
+                <label>Hindi:</label>
+                <input class="mg-top" id="sub-4" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="sub-5">
+                <label>Physics:</label>
+                <input class="mg-top" id="sub-5" type="number" name="" placeholder="Marks">
+            </div>
+            <div>
+                <button class="btn" onclick="calculate()">Calculate</button>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <!-- <div class="table-part"> -->
+            <table>
+                <th>RESULT</th>
+                <tr>
+                    <td>Total Marks :</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td> Obtained Marks :</td>
+                    <td id="obtain"></td>
+                </tr>
+                <tr>
+                    <td> Percentage :</td>
+                    <td id="par"></td>
+                </tr>
+                <tr>
+                    <td>Grade :</td>
+                    <td id="grade"></td>
+                </tr>
+                <tr>
+                    <td>Remarks :</td>
+                    <td id="marks"></td>
+                </tr>
+            </table>
+        <!-- </div>  -->
+        </div>
+    </div>
+    <script src="./grade.js"></script>
+</body>
+</html>
